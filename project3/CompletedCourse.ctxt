@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.params=initDepartment\ initCourseNumber\ initSemesterTaken\ initCredit\ initGrade\ initCompetency\ initDistArea
+comment0.target=CompletedCourse(String,\ String,\ String,\ String,\ String,\ String,\ String)
+comment0.text=Constructor\ for\ a\ Course.\ \ This\ method\ takes\ initial\ values\ for\ the\ course's\ fields\ as\ \nparameters\ and\ then\ assigns\ the\ instance\ fields\ values\ based\ on\ these\ parameters.\n@param\ initDepartment\ -\ Value\ to\ initialize\ department\ instance\ field\ to.\n@param\ initCourseNumber\ -\ Value\ to\ initialize\ course\ number\ instance\ field\ to.\n@param\ initSemesterTaken\ -\ Value\ to\ initalize\ the\ semesterTaken\ field\ to\n@param\ initCredit\ -\ Value\ to\ initialize\ credit\ instance\ field\ to.\n@param\ initGrade\ -\ Value\ to\ initialize\ the\ grade\ field\ to.\n@param\ initCompetency\ -\ Value\ to\ initialize\ competency\ instance\ field\ to.\n@param\ initDistArea\ -\ Value\ to\ initialize\ distArea\ instance\ field\ to.\n\n
+comment1.target=void\ displayCourse()
+comment1.text=This\ method\ displays\ all\ of\ the\ fields\ for\ a\ Course\ with\ the\ department\ and\ course\nnumber\ displayed\ together\ (e.g.,\ CSC121).\ \ The\ number\ of\ credits\ the\ course\ is\ worth\nare\ also\ displayed\ along\ with\ an\ indication\ of\ whether\ or\ not\ the\ course\ carries\ group\nor\ competency\ credit.\n\n
+comment2.target=String\ getDepartment()
+comment2.text=Simple\ accessor\ that\ returns\ the\ department\ for\ a\ course.\n@return\ -\ A\ String\ which\ is\ the\ department\ for\ the\ Course.\n\n
+comment3.target=String\ getCourseNumber()
+comment3.text=Simple\ accessor\ that\ returns\ the\ course\ Number\ for\ a\ course.\n@return\ -\ An\ String\ which\ is\ the\ course\ number\ for\ the\ Course.\n\n
+comment4.target=String\ getSemesterTaken()
+comment4.text=Simple\ accessor\ that\ returns\ the\ semesterTaken\ for\ a\ course.\n@return\ -\ An\ String\ which\ is\ the\ course\ number\ for\ the\ Course.\n\n
+comment5.target=String\ getCompetency()
+comment5.text=Simple\ accessor\ that\ returns\ the\ competency\ status\ for\ a\ course.\n@return\ -\ A\ String\ (W,\ Q,\ S)\ which\ is\ competency\ for\ the\ Course\ or\ X\nif\ there\ is\ no\ competency\ for\ this\ course.\n\n
+comment6.target=double\ getCredit()
+comment6.text=Simple\ accessor\ that\ returns\ the\ number\ of\ credits\ the\ course\ is\ worth.\n@return\ -\ A\ double\ which\ is\ the\ number\ of\ credits\ the\ course\ is\ worth.\n\n
+comment7.target=double\ getGrade()
+comment7.text=Simple\ accessor\ that\ returns\ the\ grade\ earned\ in\ the\ course.\n@return\ -\ A\ double\ which\ is\ the\ grade\ for\ the\ Course.\n\n
+comment8.target=String\ getDistArea()
+comment8.text=Simple\ accessor\ that\ returns\ the\ distArea\ the\ course\ belongs\ to.\n@return\ -\ A\ String\ which\ is\ the\ distArea\ of\ NONE\ if\ there\ is\ no\ distArea\ for\ this\ course.\n\n
+numComments=9
